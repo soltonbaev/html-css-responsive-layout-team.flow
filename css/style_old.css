@@ -1,0 +1,500 @@
+body {
+  font-family: "Inter";
+  margin: 0;
+}
+
+/* setting basic box model */
+
+.level-one {
+  margin: auto;
+  width: 1440px;
+}
+
+.level-two {
+  margin: 0 145px;
+}
+
+.level-three {
+  padding: 15px;
+  margin: 15px;
+}
+
+.level-four {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* set custom padding and margins */
+
+.menu-item {
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+#login {
+  margin: 0 15px;
+  padding: 10px;
+}
+
+#get-started {
+  padding: 15px 20px;
+}
+
+#get-discount-container .level-four span {
+  padding: 20px 10px;
+  margin: 5px 0px;
+}
+
+#email-field {
+  height: 50px;
+  width: 200px;
+  padding: 0 60px 0 20px;
+}
+
+#email-button {
+  padding: 15px 40px;
+}
+
+#email-button:hover {
+  background-color: #9f81f9;
+}
+
+.trusted-by-item {
+  padding: 0 70px;
+}
+
+#message h1 {
+  margin: 0 120px;
+}
+
+#message p {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.features-text-list {
+  width: 350px;
+}
+
+.features-text-item {
+  padding: 10px;
+}
+
+.features-text-list .selected::before {
+  content: "";
+  width: 9px;
+  background-color: #794cff;
+  display: inline-block;
+  height: 125px;
+  float: left;
+  margin-right: 20px;
+}
+
+.features-text-list li:nth-child(2),
+.features-text-list li:nth-child(3),
+.features-text-list li:nth-child(4) {
+  padding-left: 36px;
+}
+
+.features-text-list::before {
+}
+
+#testimonials-container h2 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+#testimonials-container p {
+  margin-right: 300px;
+  margin-left: 300px;
+  font-size: 18px;
+}
+
+#employees {
+  margin-top: 40px;
+}
+
+.employee-name {
+  padding: 15px;
+}
+
+#app-store {
+  padding: 70px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.appstore-button {
+  padding: 10px;
+}
+
+#app-store .appstore-section:first-child {
+  padding-right: 70px;
+}
+
+.footer-top {
+  padding: 40px 0 30px 0;
+}
+
+.footer-top-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-top-item:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom-icons li {
+  padding: 10px;
+}
+
+.footer-bottom-column span {
+  padding-left: 30px;
+}
+
+#install-app {
+  margin-right: 40px;
+}
+
+.footer-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom-icons {
+  margin: 0;
+}
+/* Begin HEADER CSS */
+
+#logo {
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: regular;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+
+  color: #35414b;
+}
+#menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-item::after {
+  content: url("./images/down-arrow.png");
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  background-color: #ece5ff;
+}
+
+#left-section {
+  display: flex;
+  align-items: center;
+}
+
+#mid-section {
+  display: flex;
+  align-items: center;
+}
+
+#right-section {
+  display: flex;
+  align-items: center;
+}
+
+#login {
+  border-radius: 5px;
+}
+
+#login:hover {
+  cursor: pointer;
+  background-color: #ece5ff;
+}
+
+#get-started {
+  background-color: #ece5ff;
+  color: #794cff;
+  border-radius: 5px;
+}
+#get-started-container {
+  padding: 50px 0;
+}
+
+#get-started-container h2 {
+  padding-right: 50px;
+}
+
+#get-started-container p {
+  padding-right: 70px;
+}
+
+#get-started:hover {
+  cursor: pointer;
+  color: #ece5ff;
+  background-color: #794cff;
+}
+
+.get-started-button {
+  outline: none;
+  font-size: 16px;
+  background-color: #796eff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.get-started-button:hover {
+  background-color: #a7a0ff;
+}
+
+/*BEGIN CONTENT CSS*/
+
+.flex-section {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #35414b;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #35414b;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #35414b;
+}
+
+p {
+  line-height: 24px;
+  color: #4e5a65;
+  font-size: 16px;
+}
+
+/* BEGIN GET-DISCOUNT CSS */
+
+#get-discount-container {
+  justify-content: center;
+}
+
+#save-90-percent {
+  background-color: #81c43b;
+  color: white;
+  border-radius: 15px;
+}
+
+#save-90-percent:hover {
+  cursor: pointer;
+  background-color: #63962c;
+}
+
+#get-account {
+  border-radius: 15px;
+}
+
+#get-account span::after {
+  content: " >";
+}
+
+#get-account:hover {
+  background-color: #81c43b;
+  color: white;
+}
+
+/* Begin WELCOME-CONTAINER CSS */
+
+#welcome-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#message h1 {
+  text-align: center;
+}
+
+#message p {
+  text-align: center;
+}
+
+#email-signup {
+  display: flex;
+  justify-content: center;
+}
+
+#email-field {
+  border: 1px #e1e5ea solid;
+  color: #97a5b5;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#email-button {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: #794cff;
+  color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/*Begin TRUSTED-BY-CONTAINER CSS*/
+
+.trusted-by-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#trusted-by-container p {
+  text-align: center;
+}
+
+/*Begin FEATURES-CONTAINER CSS*/
+
+#features-container {
+  justify-content: space-around;
+}
+
+.features-text-item {
+  list-style: none;
+}
+
+/*Begin DETAILED-FEATURES-CONTAINER CSS */
+
+#detailed-features-container {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#detailed-features-rows .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#detailed-features-container .row div {
+  width: 300px;
+}
+
+/* Begin GET-STARTED-CONTAINER CSS */
+
+#get-started-container {
+  justify-content: space-between;
+}
+
+#get-started-container .column h2 {
+  text-align: left;
+}
+/* Begin TESTIMONIALS-CONTAINER CSS */
+
+#testimonials-container {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#testimonials-container p {
+  line-height: 32px;
+  text-align: center;
+}
+#employees {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#employees .selected {
+  border-top: 5px solid #35414b;
+  padding: 0 45px 0 20px;
+}
+
+.employee-info {
+  display: flex;
+  align-items: center;
+}
+
+.employee-name {
+  list-style: none;
+}
+
+.employee-name li:first-child {
+  font-weight: bold;
+}
+
+/* Begin APP-STORE CSS */
+
+#app-store {
+  background-color: #796eff;
+  border-radius: 15px;
+}
+
+#app-store .appstore-section:first-child {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#app-store .appstore-section:nth-child(2) {
+  display: flex;
+}
+
+.appstore-section .appstore-button:hover {
+  cursor: pointer;
+}
+/*Begin FOOTER CSS */
+
+.footer {
+  width: 100%;
+  background-color: #1d2830;
+  color: white;
+}
+
+.footer-top-column {
+  list-style: none;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#install-app li img:nth-child(2):hover,
+#install-app li img:nth-child(3):hover {
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-top-column li:first-child {
+  font-weight: 800;
+}

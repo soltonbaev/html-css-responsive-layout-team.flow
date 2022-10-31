@@ -1,0 +1,30 @@
+/* set CSS vars */
+:root {
+  /*set font families*/
+  --font-fam-main: "Inter";
+  --font-fam-logo: "Josefin Sans";
+
+  /* set web-site pallet */
+  --color-green: #81c43b;
+  --color-purple: #794cff;
+  --color-purple-2: #796eff;
+  --color-light-pink: #ece5ff;
+  --color-white: white;
+  --color-logo: #1d2830;
+  --color-heading: #35414b;
+  --color-paragraph: #4e5a65;
+  --color-employees: #4e5265;
+
+  /*set font-sizes*/
+  --text-size-main: 16px;
+  --text-size-h3: 18px;
+  --text-size-h2: 40px;
+  --text-size-h1: 64px;
+  --text-size-logo: 24px;
+
+  /*set font line heights*/
+  --lh16: 16px;
+  --lh24: 24px;
+  --lh32: 32px;
+  --lh48: 48px;
+}
